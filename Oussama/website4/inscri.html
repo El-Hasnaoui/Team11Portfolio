@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="inscri.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300&family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,500;1,600&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&display=swap" rel="stylesheet">
+    <title>Inscription</title>
+</head>
+<body>
+<div class="container">
+<form method="get" action="">
+    <h2>Inscription</h2>
+<div class="liste">
+
+    <div class="info-personnel">
+    <label for="nom">Nom complet:</label>
+    <input type="text" name="nom" id="nom" placeholder="Entrez votre Nom complet" required>
+
+    <label for="email">Email:</label>
+    <input type="email" name="email" id="email" placeholder="Entrez votre email" autofocus required>
+
+    <label for="pwd">Mot de passe:</label>
+    <input type="password" name="pwd" id="pwd" placeholder="Entrez votre mot de passe" required>
+    </div>
+
+    <div class="info-site">
+        <label for="utilisateur">Nom utilisateur:</label>
+        <input type="text" name="utilisateur" id="utilisateur" placeholder="Nom Utilisateur" required>
+
+        <label for="phone">Télèphone:</label>
+       <input type="tel" name="phonr" id="phone" placeholder="Vos numéro">
+
+        <label for="password">Confirmation:</label>
+        <input type="password" name="password" id="password" placeholder="Confirmé mot de passe" required>
+        </div>
+    </div>
+    
+<div class="choix">
+    <h3>Sexe:</h3>
+  <div>
+    <div>
+    <input type="radio" name="sexe" id="Masculin">
+    <label for="Masculin">Masculin</label>
+    </div>
+    <div>
+    <input type="radio" name="sexe" id="Feminin">
+    <label for="Feminin">Féminin</label>
+</div>
+
+</div>
+</div>
+<div  class="submit" >
+<input type="submit" value="Envoyez">
+</div>
+</form>
+
+</div>
+    
+
+</body>
+</html>

@@ -1,0 +1,16 @@
+.btn {
+    background-color: green;
+    border: 4px solid green;
+    border-radius: 10rem;
+    cursor: pointer;
+    font-size: 1.1em;
+    overflow: hidden;
+    padding: 15px;
+   
+    transition: all 400ms;
+     &:hover {
+        transform: scale(1.15);
+        background-color: bisque;
+    }
+   
+}

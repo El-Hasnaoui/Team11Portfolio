@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-family: 'Jost', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    color: aliceblue;
+    scroll-behavior: smooth;
+}
+body{
+background-color: rgba(21, 20, 20, 0.881);
+}
+a{
+    text-decoration: none;
+}
+header {
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    border-bottom: 1px solid aliceblue;
+}
+.logo{
+    font-size: 1.5em;
+    font-weight: 600;
+}
+.logo span{
+    color: brown;
+}
+header nav a{
+    display: inline-block;
+  padding-right: 1em;
+  transition: 0.4s;
+}
+nav a:hover{
+    transform: scale(1.1);
+
+}
+.inscrire{
+    border: 1px solid red;
+    padding: 0.5em;
+    border-radius: 15px;
+    transition:transform 0.4s;
+    background-color: rgb(188, 44, 44);
+}
+.inscrire:hover {
+    transform: scale(1.1);
+    opacity: 0.9;
+}
+.inscrire:active{
+ background-color:rgba(21, 20, 20, 0.881);
+} 
+.content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.titre{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   margin-top: 8%;
+   margin-left: 8%;
+}
+.content div span{
+    color: rgb(171, 31, 31);
+}
+h3,h1{
+    letter-spacing: 2px;
+}
+.btn{
+    display: inline-block;
+    margin-top: 15px;
+    padding: 15px;
+    border: 1px solid  rgb(171, 31, 31);
+   border-radius: 15px;
+   background-color: rgb(188, 44, 44);
+   transition: transform 0.4s;
+}
+.btn:hover, .icons img:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    font-weight: 600;
+
+}
+.btn:active{
+    background-color:rgba(21, 20, 20, 0.881);
+
+}
+.icons{
+    margin-top: 15px;
+}
+.icons img{
+    padding-right: 10px;
+}
+.test{
+    top: 15px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image{
+ 
+    width: 50%;
+    height: 50%;
+    background-color: red;
+    border-radius: 55% 45% 45% 55% / 61% 16% 84% 39%;
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+ transition: 0.4s;
+
+}
+
+.image:hover{
+transform: scale(0.9);
+}
+.about{
+    display: flex;
+   
+    align-items: center;
+    justify-content: space-around;
+}
+.about .icon{
+    width: 35%;
+}
+.about .icon img{
+    width: 100%;
+}
+.para{
+  
+  width: 40%;
+}
+.para p{
+    line-height: 1.5em;
+}
+.para h1{
+    font-size: 2em;
+}
+.para h1,h5{
+    margin-bottom: 10px;
+    letter-spacing: normal;
+}
+.para h1 span , h5{
+    color: rgb(171, 31, 31);
+}
+.Our{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.grid{
+    
+    display: grid;
+    grid-template-columns:  170px 170px 170px 170px;
+    grid-template-rows: 250px;
+    gap: 20px;
+}
+.services h1{
+    text-align: center;
+margin-bottom: 30px;
+font-size: 2em;
+}
+.services h1 span{
+    color: rgb(171, 31, 31);
+}
+ .card1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   letter-spacing: normal;
+    padding: 15px;
+    border: 1px solid rgb(171, 31, 31);
+    border-radius: 15px;
+    box-shadow: rgba(230, 217, 217, 0.427) 0px 4px 12px;
+    transition: 0.4s;
+ }
+ .card1 .symbole h3{
+    margin-top: 10px;
+margin-bottom: 15px;
+font-size: 0.9em;
+letter-spacing: normal;
+ }
+ .card1 .symbole i{
+    color: rgb(171, 31, 31);
+    font-size: 1.1em;
+ }
+ .card1:hover{
+    transform: scale(1.1);
+ }
+ .card1 a{
+    display: block;
+    text-decoration: underline;
+    color:rgb(171, 31, 31);
+    font-weight: 700;
+ }
+
+.skills{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.container-image{
+    width: 40%;
+}
+.container-image img{
+    width: 100%;
+}
+.skills-icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+.skills-icon h1{
+    font-size: 3em;
+    letter-spacing: normal;
+    
+}
+.skills-icon h1 span{
+    color:rgb(171, 31, 31);
+}
+.container-skills{
+    width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: center;
+    gap: 15px;
+}
+
